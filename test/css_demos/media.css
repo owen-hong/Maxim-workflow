@@ -1,0 +1,67 @@
+.ab{
+    font-size:12px;
+    background-color: red;
+    width:100%;
+}
+.bcc{
+    display: block;
+    width: 44px;
+    height: 49px;
+    font-size:12px;
+}
+.bdd{
+    display: block;
+    height: 80px;
+    width: 80px;
+    font-size:12px;
+}
+
+.ac{
+    color: #000;
+    background-image: url(img/slice/ico-commit-step1@2x.png);
+}
+.bb{
+    background-image: url(img/slice/ico-commit-step2@2x.png);
+}
+.cc{
+    background-image: url(img/slice/ico-commit-step3@2x.png);
+}
+
+@media screen and (max-width : 320px){
+    .ab{
+        width:50px;
+        background-image: url(img/slice/ico-commit-step1.png);
+    }
+    .bb{
+        height:10px;
+        background-image: url(img/slice/ico-commit-step2.png);
+    }
+}
+
+@media screen and (max-width : 320px){
+    .cc{
+        width:50px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .ab{
+        width: 100px;
+        background-image: url(img/slice/ico-commit-step1.png);
+    }
+    .bb{
+        background-image: url(img/slice/ico-commit-step2.png);
+    }
+    .cc{
+        background-image: url(img/slice/ico-commit-step3.png);
+    }
+}
+@media screen and (max-width: 414px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2){
+    .ab{
+        width:200px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ab{
+        width: 500px;
+    }
+}

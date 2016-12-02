@@ -1,0 +1,25 @@
+/*测试单倍图合并backgroun-size设置的问题*/
+.ico1{
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	background-image: url(img/slice/ico-commit-step1.png);
+}
+.ico2{
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	background-image: url(img/slice/ico-commit-step2.png);
+}
+.ico3{
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	background-image: url(img/slice/ico-commit-step3.png);
+}
+.ico4{
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	background-image: url(img/slice/ico-commit-step4.png);
+}

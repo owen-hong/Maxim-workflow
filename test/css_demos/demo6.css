@@ -1,0 +1,70 @@
+.ico1 {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    background-image: url(sprite/demo6.png);
+    background-position: 0 0;
+}
+
+.ico2 {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    background-image: url(sprite/demo6.png);
+    background-position: -36px 0;
+}
+
+.ico3 {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    background-image: url(sprite/demo6.png);
+    background-position: 0 -36px;
+}
+
+.ico4 {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    background-image: url(img/ico-commit-step4444.png);
+}
+
+#MAXIM {
+    content: "owg20160620135213";
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25) {
+    .ico1 {
+        width: 34px;
+        height: 34px;
+        display: inline-block;
+        background-image: url(sprite/demo6@2x.png);
+        background-position: 0 0;
+        -webkit-background-size: 35px 35px;
+        background-size: 35px 35px;
+    }
+
+    .ico2 {
+        width: 34px;
+        height: 34px;
+        display: inline-block;
+        background-image: url(sprite/demo6@2x.png);
+        background-position: -18px 0;
+        -webkit-background-size: 35px 35px;
+        background-size: 35px 35px;
+    }
+
+    .ico3 {
+        width: 34px;
+        height: 34px;
+        display: inline-block;
+        background-image: url(sprite/demo6@2x.png);
+        background-position: 0 -18px;
+        -webkit-background-size: 35px 35px;
+        background-size: 35px 35px;
+    }
+}
+
+#MAXIM {
+    content: "owg20160620135355"
+}

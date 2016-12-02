@@ -1,0 +1,6 @@
+@charset "utf-8";
+/*测试background空白url时对软件的影响*/
+.a{
+	background: url("about:blank");
+	font-size: 12px;
+}

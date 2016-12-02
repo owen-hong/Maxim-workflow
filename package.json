@@ -1,0 +1,81 @@
+{
+  "version": "1.1.0",
+  "bugs": {
+    "url": "https://github.com/owen-hong/Maxim-workflow/issues"
+  },
+  "contributors": [
+    {
+      "name": "Owenhong",
+      "email": "520ued.com@gmail.com",
+      "url": "http://520ued.com"
+    },
+    {
+      "name": "dandan",
+      "email": "t-cong@163.com"
+    },
+    {
+      "name": "chaoluo",
+      "email": "super4lc@gmail.com"
+    },
+    {
+      "name": "veyang",
+      "email": "299564@qq.com",
+      "url": "http://caihong.cc"
+    }
+  ],
+  "dependencies": {
+    "async": "^1.5.0",
+    "clean-css": "^3.4.8",
+    "css-slice-imgs": "^0.1.2",
+    "csslint": "0.10.0",
+    "cssom-maxim": "^0.0.8",
+    "extend": "^3.0.0",
+    "ftp": "^0.3.10",
+    "imagemin": "^4.0.0",
+    "imagemin-pngquant": "^4.2.0",
+    "postcss": "^5.1.2",
+    "request": "^2.67.0",
+    "spritesmith": "^3.0.0",
+    "ssh2": "^0.5.2",
+    "stylelint": "^7.2.0",
+    "svg-sprite": "^1.3.1",
+    "svg2png": "^4.0.0",
+    "uglify-js": "^2.6.2"
+  },
+  "description": "Maxim front end workflow tools",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "d4a9c87c8ddf6f3e230a707b27ef5c2a30cacc97",
+    "tarball": "https://registry.npmjs.org/maxim-workflow/-/maxim-workflow-0.3.5.tgz"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "homepage": "https://github.com/owen-hong/Maxim-workflow",
+  "installable": true,
+  "keywords": [
+    "maxim",
+    "qcloud",
+    "tools",
+    "workflow"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "owenhong",
+      "email": "520ued.com@gmail.com"
+    }
+  ],
+  "name": "maxim-workflow",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owen-hong/Maxim-workflow.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

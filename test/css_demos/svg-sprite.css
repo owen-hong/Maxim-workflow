@@ -1,0 +1,56 @@
+.ab{
+    font-size:12px;
+    background-color: red;
+    width:100%;
+}
+.bcc{
+    display: block;
+    width: 44px;
+    height: 49px;
+    font-size:12px;
+    background-image: url(img/slice/svg-1.svg);
+}
+.bcc2{
+    display: block;
+    width: 50px;
+    height: 50px;
+    font-size:14px;
+    background-image: url(img/slice/svg-1.svg);
+}
+
+.bdd{
+    display: block;
+    height: 80px;
+    width: 80px;
+    font-size:12px;
+    background-image: url(img/slice/svg-2.svg);
+}
+
+
+.ac{
+    color: #000;
+    background-image: url(img/slice/ico-commit-step1@2x.png);
+}
+.bb{
+    background-image: url(img/slice/ico-commit-step2@2x.png);
+}
+.cc{
+    background-image: url(img/slice/ico-commit-step3@2x.png);
+}
+
+@media screen and (max-width : 320px){
+    .bcc{
+        display: block;
+        width: 44px;
+        height: 49px;
+        font-size:12px;
+        background-image: url(img/slice/svg-1.svg);
+    }
+    .bdd{
+        display: block;
+        height: 80px;
+        width: 80px;
+        font-size:12px;
+        background-image: url(img/slice/svg-2.svg);
+    }
+}

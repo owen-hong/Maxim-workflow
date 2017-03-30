@@ -64,6 +64,11 @@ Maxim.prototype = {
     httpCommit : function (files,config,callback) {
         var httpCommit = require('./lib/httpCommit');
         new httpCommit().fileUpload(files,config,callback);
+    },
+    //http上传
+    svgChangeSize : function (files,config,callback) {
+        var modifySvg = require('./lib/modify-svg');
+        modifySvg.changeSize(files, config ,callback);
     }
 };
 

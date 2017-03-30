@@ -1,5 +1,40 @@
 {
-  "version": "1.1.0",
+  "_args": [
+    [
+      "maxim-workflow@1.0.4",
+      "F:\\Maxim-Ui"
+    ]
+  ],
+  "_from": "maxim-workflow@1.0.4",
+  "_id": "maxim-workflow@1.0.4",
+  "_inCache": true,
+  "_location": "/maxim-workflow",
+  "_nodeVersion": "6.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/maxim-workflow-1.0.4.tgz_1476179680004_0.43818420823663473"
+  },
+  "_npmUser": {
+    "email": "520ued.com@gmail.com",
+    "name": "owenhong"
+  },
+  "_npmVersion": "3.3.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "maxim-workflow",
+    "raw": "maxim-workflow@1.0.4",
+    "rawSpec": "1.0.4",
+    "scope": null,
+    "spec": "1.0.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_shasum": "a52249b9c0ffd0f0f022b7c4f5da336425e21e32",
+  "_shrinkwrap": null,
+  "_spec": "maxim-workflow@1.0.4",
+  "_where": "F:\\Maxim-Ui",
   "bugs": {
     "url": "https://github.com/owen-hong/Maxim-workflow/issues"
   },
@@ -36,7 +71,6 @@
     "postcss": "^5.1.2",
     "request": "^2.67.0",
     "spritesmith": "^3.0.0",
-    "ssh2": "^0.5.2",
     "stylelint": "^7.2.0",
     "svg-sprite": "^1.3.1",
     "svg2png": "^4.0.0",
@@ -46,13 +80,14 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "d4a9c87c8ddf6f3e230a707b27ef5c2a30cacc97",
-    "tarball": "https://registry.npmjs.org/maxim-workflow/-/maxim-workflow-0.3.5.tgz"
+    "shasum": "a52249b9c0ffd0f0f022b7c4f5da336425e21e32",
+    "tarball": "https://registry.npmjs.org/maxim-workflow/-/maxim-workflow-1.0.4.tgz"
   },
   "files": [
     "index.js",
     "lib"
   ],
+  "gitHead": "d6effa0e30de68d3f175571a2b2bf582f3398600",
   "homepage": "https://github.com/owen-hong/Maxim-workflow",
   "installable": true,
   "keywords": [
@@ -77,5 +112,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "version": "1.0.5"
 }

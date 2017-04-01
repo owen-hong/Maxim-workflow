@@ -69,6 +69,11 @@ Maxim.prototype = {
     svgChangeSize : function (files,config,callback) {
         var modifySvg = require('./lib/modify-svg');
         modifySvg.changeSize(files, config ,callback);
+    },
+    //http上传
+    svg2png : function (file,config,callback) {
+        var svgToPng = require('./lib/svg2png');
+        new svgToPng().svg2png(file, config ,callback);
     }
 };
 
